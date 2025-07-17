@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+ body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+
+    footer{
+      position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:white;
+    }
+
+
+
+
+.scrollbar-hide {
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none; /* Para IE y Edge */
+  }
+  
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari y Opera */
+  }
